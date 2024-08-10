@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Productapp",
+    "slug": "Productapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amazing.productsapp"
+    },
+    "android": {
+      "package": "com.amazing.productsapp",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95c35c33-f839-436c-9aca-88162066362d"
+      }
+    }
+  }
+}
